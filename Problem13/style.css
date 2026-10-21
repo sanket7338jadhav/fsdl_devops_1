@@ -1,0 +1,89 @@
+/* Body */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Title */
+h1 {
+    margin-bottom: 15px;
+}
+
+/* Input */
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #2575fc;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a5ed9;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* Task Item */
+li {
+    background: #f4f6f9;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+/* Delete Button */
+.delete-btn {
+    background: #ff4d4d;
+}
+
+.delete-btn:hover {
+    background: #cc0000;
+}
+
+/* Empty Message */
+#emptyMsg {
+    color: gray;
+    margin-top: 10px;
+}

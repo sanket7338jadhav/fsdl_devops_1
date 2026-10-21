@@ -1,0 +1,30 @@
+<!-- 13. Build a To-Do List Application that allows users to add and delete tasks dynamically. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📝 To-Do List</h1>
+
+        <!-- Input -->
+        <div class="input-box">
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <!-- Task List -->
+        <ul id="taskList"></ul>
+
+        <p id="emptyMsg">No tasks yet 🚀</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

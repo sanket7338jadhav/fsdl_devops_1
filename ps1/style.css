@@ -1,0 +1,46 @@
+style.css
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Search */
+#searchInput {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hover */
+tr:hover {
+    background-color: #f1f1f1;
+}

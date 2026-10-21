@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    text-align: center;
+    color: white;
+}
+
+/* Filters */
+.filters {
+    margin: 20px;
+}
+
+.filters button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background: white;
+    color: #333;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.filters button:hover {
+    transform: scale(1.05);
+}
+
+.filters .active {
+    background: #ff7e5f;
+    color: white;
+}
+
+/* Products Grid */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}

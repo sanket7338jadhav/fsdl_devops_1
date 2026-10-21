@@ -1,0 +1,61 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+}
+
+/* Title */
+.title {
+    margin: 20px;
+}
+
+/* Buttons */
+.buttons {
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Images */
+.image-box {
+    width: 300px;
+    display: none; /* hidden by default */
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Show class */
+.show {
+    display: block;
+}

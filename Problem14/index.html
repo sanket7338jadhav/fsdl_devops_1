@@ -1,0 +1,37 @@
+<!-- 14. Write a program that accepts a string input and performs operations such as reversing, 
+converting to uppercase/lowercase, and calculating its length.  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔤 String Operations</h1>
+
+        <!-- Input -->
+        <input type="text" id="inputText" placeholder="Enter text here...">
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button onclick="reverseText()">Reverse</button>
+            <button onclick="toUpper()">Uppercase</button>
+            <button onclick="toLower()">Lowercase</button>
+            <button onclick="getLength()">Length</button>
+        </div>
+
+        <!-- Output -->
+        <div class="output">
+            <h3>Result:</h3>
+            <p id="result">---</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

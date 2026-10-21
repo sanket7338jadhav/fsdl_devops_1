@@ -1,0 +1,29 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f6f9;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 250px;
+    margin: 30px auto;
+}
+
+/* Items */
+li {
+    background: white;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: grab;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Dragging */
+.dragging {
+    opacity: 0.5;
+}

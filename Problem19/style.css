@@ -1,0 +1,76 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 70%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #007bff;
+}
+
+header p {
+    color: #555;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+.skills li {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Contact */
+section p {
+    margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}

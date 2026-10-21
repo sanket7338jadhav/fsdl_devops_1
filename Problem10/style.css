@@ -1,0 +1,41 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+}
+
+/* Accordion Container */
+.accordion {
+    width: 60%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+/* Item */
+.item {
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Question */
+.question {
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Answer */
+.answer {
+    padding: 15px;
+    display: none;
+    background: #f1f1f1;
+}
+
+/* Active */
+.item.active .answer {
+    display: block;
+}

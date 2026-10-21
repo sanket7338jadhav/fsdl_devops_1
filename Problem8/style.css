@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f6f9;
+}
+
+/* Title */
+h1 {
+    margin: 20px;
+}
+
+/* Gallery Layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Image Box */
+.image-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Image */
+.image-box img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 123, 255, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+/* Hover Effects */
+.image-box:hover img {
+    transform: scale(1.2); /* Zoom */
+}
+
+.image-box:hover .overlay {
+    opacity: 1; /* Show overlay */
+}

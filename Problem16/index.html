@@ -1,0 +1,35 @@
+<!-- 16. Create a Quiz Application with multiple questions and display the final score after 
+submission.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🧠 Quiz App</h1>
+
+        <!-- Quiz Box -->
+        <div id="quizBox">
+            <h2 id="question">Question here</h2>
+
+            <div id="options"></div>
+
+            <button id="nextBtn" onclick="nextQuestion()">Next</button>
+        </div>
+
+        <!-- Result -->
+        <div id="resultBox" class="hidden">
+            <h2>Your Score:</h2>
+            <h1 id="score"></h1>
+            <button onclick="location.reload()">Restart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

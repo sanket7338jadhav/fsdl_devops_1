@@ -1,0 +1,40 @@
+<!-- 4. Develop a Real-Time Profile Previewer where user input in a form is instantly reflected in a 
+profile card layout.  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Real-Time Profile Previewer</h1>
+
+    <div class="container">
+
+        <!-- Form -->
+        <div class="form">
+            <input type="text" id="name" placeholder="Enter Name">
+            <input type="text" id="role" placeholder="Enter Role">
+            <input type="text" id="bio" placeholder="Enter Bio">
+            <input type="text" id="image" placeholder="Enter Image URL">
+        </div>
+
+        <!-- Profile Card -->
+        <div class="card">
+            <img id="profileImg" src="https://via.placeholder.com/150" alt="Profile">
+            <h2 id="previewName">Your Name</h2>
+            <h4 id="previewRole">Your Role</h4>
+            <p id="previewBio">Your bio will appear here...</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

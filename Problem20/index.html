@@ -1,0 +1,79 @@
+<!-- 20. Create a Student Registration Form with fields such as Name, Email, Gender, Course, and 
+Address, and apply proper styling.  -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Student Registration Form</h1>
+
+      <form>
+        <div class="form-group">
+          <label for="name" class="inline">Name: </label>
+          <input id="name" type="text" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="inline">Email: </label>
+          <input id="email" type="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-group">
+          <label for="gender" class="inline">Gender</label>
+          <label>
+            <input type="radio" name="gender" value="gender" />Male
+          </label>
+          <label>
+            <input type="radio" name="gender" value="gender" />Female
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="course">Select Course:</label>
+          <label>
+            <input
+              type="checkbox"
+              name="course"
+              value="Design And Analysis of Algorithm"
+            />
+            Design And Analysis of Algorithm
+          </label>
+          <label>
+            <input type="checkbox" name="course" value="Operating System" />
+            Operating System
+          </label>
+          <label>
+            <input type="checkbox" name="course" value="Cloud Computing" />
+            Cloud Computing
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="course"
+              value="Full Stack Web Development"
+            />
+            Full Stack Web Development
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="address">Enter your address:</label>
+          <input
+            type="text"
+            name=""
+            id="address"
+            placeholder="Enter your address"
+          />
+        </div>
+
+        <input type="submit" placeholder="Submit" class="button"  id="submit-btn"/>
+      </form>
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

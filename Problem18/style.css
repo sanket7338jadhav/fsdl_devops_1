@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 400px;
+    margin-top: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Input */
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #ff7e5f;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e65b3a;
+}
+
+/* Notes */
+#notesContainer {
+    margin-top: 20px;
+}
+
+.note {
+    background: #f4f6f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note:hover {
+    transform: scale(1.02);
+}
+
+/* Delete */
+.delete-btn {
+    background: #ff4d4d;
+}
+
+.delete-btn:hover {
+    background: #cc0000;
+}
+
+/* Empty */
+#emptyMsg {
+    color: gray;
+}

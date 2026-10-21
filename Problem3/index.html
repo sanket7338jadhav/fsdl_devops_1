@@ -1,0 +1,53 @@
+<!-- 3. Create a Pricing Toggle Interface that switches between Monthly and Yearly subscription 
+plans and updates prices dynamically.  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pricing Plans</h1>
+
+    <!-- Toggle -->
+    <div class="toggle-box">
+        <span>Monthly</span>
+        <label class="switch">
+            <input type="checkbox" id="toggle" onchange="togglePricing()">
+            <span class="slider"></span>
+        </label>
+        <span>Yearly</span>
+    </div>
+
+    <!-- Pricing Cards -->
+    <div class="pricing-container">
+
+        <div class="card">
+            <h2>Basic</h2>
+            <h3 id="basicPrice">₹199/mo</h3>
+            <p>Basic features</p>
+        </div>
+
+        <div class="card">
+            <h2>Standard</h2>
+            <h3 id="standardPrice">₹399/mo</h3>
+            <p>Advanced features</p>
+        </div>
+
+        <div class="card">
+            <h2>Premium</h2>
+            <h3 id="premiumPrice">₹699/mo</h3>
+            <p>All features</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
